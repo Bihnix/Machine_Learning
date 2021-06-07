@@ -141,3 +141,4 @@ df['emoji'] = df["Message"].apply(split_count)
 
 emojis = sum(df['emoji'].str.len())
 print(emojis)
+#Finsh
